@@ -1,4 +1,4 @@
-package dev.joe.superhero.data.structure
+package dev.joe.superhero.data.local.structure
 
 import com.fasterxml.jackson.annotation.JsonIgnore
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties

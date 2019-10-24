@@ -1,4 +1,4 @@
-package dev.joe.superhero.converter
+package dev.joe.superhero.data.local.converter
 
 import android.text.format.DateFormat
 import androidx.room.TypeConverter

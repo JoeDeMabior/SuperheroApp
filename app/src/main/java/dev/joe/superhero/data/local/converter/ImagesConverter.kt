@@ -1,9 +1,9 @@
-package dev.joe.superhero.converter
+package dev.joe.superhero.data.local.converter
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import dev.joe.superhero.data.structure.Image
+import dev.joe.superhero.data.local.structure.Image
 
 class ImagesConverter {
 

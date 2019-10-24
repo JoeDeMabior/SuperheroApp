@@ -1,4 +1,4 @@
-package dev.joe.superhero.data.db
+package dev.joe.superhero.data.local.db
 
 import android.content.Context
 import androidx.room.Database
@@ -6,9 +6,9 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
-import dev.joe.superhero.converter.*
-import dev.joe.superhero.data.dao.*
-import dev.joe.superhero.data.entity.*
+import dev.joe.superhero.data.local.converter.*
+import dev.joe.superhero.data.local.dao.*
+import dev.joe.superhero.data.local.entity.*
 
 @Database(
     entities = [Character::class, Comic::class, Creator::class, Event::class, Series::class, Stories::class],

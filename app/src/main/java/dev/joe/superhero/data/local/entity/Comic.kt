@@ -1,12 +1,12 @@
-package dev.joe.superhero.data.entity
+package dev.joe.superhero.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.TypeConverters
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-import dev.joe.superhero.converter.*
-import dev.joe.superhero.data.structure.Image
-import dev.joe.superhero.data.structure.Url
+import dev.joe.superhero.data.local.converter.*
+import dev.joe.superhero.data.local.structure.Image
+import dev.joe.superhero.data.local.structure.Url
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -78,11 +78,9 @@ data class Comic(
     val urls: ArrayList<Url>?,
 
     @SerializedName("thumbnail")
-    @Expose
     val thumbnail: Image?,
 
     @SerializedName("images")
-    @Expose
     @TypeConverters(ImagesConverter::class)
     val images: ArrayList<Image>?,
 

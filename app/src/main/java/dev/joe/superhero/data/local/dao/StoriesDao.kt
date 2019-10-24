@@ -1,11 +1,11 @@
-package dev.joe.superhero.data.dao
+package dev.joe.superhero.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy.REPLACE
 import androidx.room.Query
 import androidx.room.Update
-import dev.joe.superhero.data.entity.Stories
+import dev.joe.superhero.data.local.entity.Stories
 
 @Dao
 interface StoriesDao {
